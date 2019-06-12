@@ -1,0 +1,32 @@
+.parallax{
+	background-image: url("flowers.jpg");
+
+	/* Set a specific height */
+	height: 500px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.title1{
+	transition: transform 2s;
+}
+
+.title1:hover{
+	transform: scale(2);
+}
+
+/*.title1:hover h1.title1{
+	transform: scale(2);
+}*/
+
+.btn:hover{
+	margin-top: 20px;
+}
